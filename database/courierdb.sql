@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 06, 2020 at 06:01 PM
+-- Generation Time: Dec 31, 2020 at 11:41 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.11
 
@@ -61,6 +61,27 @@ CREATE TABLE `admin` (
 INSERT INTO `admin` (`a_id`, `email`, `name`, `pnumber`) VALUES
 (1, 'premkumar1215225@gmail.com', 'Prem', 63627862),
 (2, 'himanshu.18is027@cambridge.edu.in', 'Himanshu Soni', 123456789);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `contacts`
+--
+
+CREATE TABLE `contacts` (
+  `id` int(11) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `subject` varchar(30) NOT NULL,
+  `msg` varchar(300) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `contacts`
+--
+
+INSERT INTO `contacts` (`id`, `email`, `subject`, `msg`) VALUES
+(1, 'love@gmail.com', 'delay', 'I have courier 2 weeks ago but its not delivered yet..'),
+(2, 'labh.18is033@cambridge.edu.in', 'Delay', 'gjndfjkgnhdfjkgn');
 
 -- --------------------------------------------------------
 
@@ -152,6 +173,12 @@ ALTER TABLE `admin`
   ADD UNIQUE KEY `email` (`email`);
 
 --
+-- Indexes for table `contacts`
+--
+ALTER TABLE `contacts`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `courier`
 --
 ALTER TABLE `courier`
@@ -181,6 +208,12 @@ ALTER TABLE `users`
 --
 ALTER TABLE `admin`
   MODIFY `a_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `contacts`
+--
+ALTER TABLE `contacts`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `courier`
