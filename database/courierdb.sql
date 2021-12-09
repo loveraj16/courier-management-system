@@ -38,8 +38,8 @@ CREATE TABLE `adlogin` (
 --
 
 INSERT INTO `adlogin` (`email`, `password`, `a_id`) VALUES
-('premkumar1215225@gmail.com', '1215225', 1),
-('himanshu.18is027@cambridge.edu.in', '1cd18is027', 2);
+('admin1@gmail.com', '12345', 1),
+('admin2@gmail.com', '12345', 2);
 
 -- --------------------------------------------------------
 
@@ -59,8 +59,8 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`a_id`, `email`, `name`, `pnumber`) VALUES
-(1, 'premkumar1215225@gmail.com', 'Prem', 63627862),
-(2, 'himanshu.18is027@cambridge.edu.in', 'Himanshu Soni', 123456789);
+(1, 'admin1@gmail.com', 'Admin1', 12345),
+(2, 'admin2@gmail.com', 'Admin2', 12345);
 
 -- --------------------------------------------------------
 

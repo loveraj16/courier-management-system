@@ -88,8 +88,8 @@ $uid = $_SESSION['uid'];
                     <td>Weight:</td>
                     <td><input type="number" name="wgt" placeholder="weights in kg" required></td>
 
-                    <td>ReceiptNo.:</td>
-                    <td><input type="number" name="billno" placeholder="enter receipt num" required></td>
+                    <td>Payment Id:</td>
+                    <td><input type="number" name="billno" placeholder="enter transition num" required></td>
                 </tr>
                 <tr>
                     <!-- <td>Date:</td><td><input type="date" name="date"></td> -->

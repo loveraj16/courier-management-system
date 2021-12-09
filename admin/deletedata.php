@@ -18,7 +18,7 @@ include('head.php');
     <h5 ><a href="dashboard.php" style="float: left; margin-left:20px; color:aliceblue;">BackToDashboard</a></h5>
     <h5 ><a href="logout.php" style="float: right; margin-right:20px; color:aliceblue;">LogOut</a></h5>
     </div>
-    <h1 align='center' style="text-shadow: 0.1em 0.1em 0.15em #f9829b;">Search Student Information</h1>
+    <h1 align='center' style="text-shadow: 0.1em 0.1em 0.15em #f9829b;">Search Data Information</h1>
 </div>
 
 <div style="overflow-x:auto;">

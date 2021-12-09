@@ -26,6 +26,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
                 <a href="home.php" class="nav-item nav-link active">Home</a>
+                <a href="price.php" class="nav-item nav-link active">Price</a>
                 <a href="courierMenu.php" class="nav-item nav-link">Courier</a>
                 <a href="trackMenu.php" class="nav-item nav-link">Track</a>
                 
